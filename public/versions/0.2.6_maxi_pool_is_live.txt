@@ -1,0 +1,9 @@
++ Added Pools section under Earn section
++ Added Pools under Monitor Page
++ UI update on Monitor and Earn section
++ Ending V1 Contribute section, PLEASE WITHDRAW
+- Farms Tab is now under the Earn section
+- Transaction notification waits for blocks
+- Monitor Page shows total of all holdings
+- Wallet connect bug for trust wallet resolved
+- Data fetching optimizations

@@ -1,0 +1,5 @@
++ Optimized loading, decreased load time by ~50%
++ Improved accuracy of APR values
+- Change APY to APR on the Farm tab
+- The entire wallet button is now clickable
+- Added simple animation to wallet button

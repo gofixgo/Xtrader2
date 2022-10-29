@@ -1,0 +1,6 @@
++ Added XUSD EARN to Pools
++ Added Earn under Monitor Page
++ UI cleanup on the Earn page
+- Minor changes on fetching Pools
+- fixed price bug in wallet dropdown
+

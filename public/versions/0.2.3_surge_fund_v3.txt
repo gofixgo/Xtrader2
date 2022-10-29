@@ -1,0 +1,4 @@
++ Updated Surge Fund to version 3
++ Added toggle to get rewards in xUSD
+- Fixed some typos
+- Minor bug fixes on swapper

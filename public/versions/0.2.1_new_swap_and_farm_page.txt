@@ -1,0 +1,6 @@
++ Farm Page UI Rework
++ Swap Page UI Rework
++ Liquidity Section Added To Swap Page
+- Increased Mobile Compatibility
+- Calculated APR / APY on Monitor Page
+- Farm Tokens Added To Monitor Page

@@ -1,0 +1,10 @@
++ XUSD V2 is Live!
++ Migration buttons on Monitor page
++ New Stablecoin Swap tab
++ New Treasury Contribution Page
++ New V2 XUSD-BNB Farm is Live!
+- Only unstake functionality on older Farms
+- Stopped swapping of V1 xUSD
+- Optimization fixes
+- Hide zero values on monitor page
+- Helpful tooltips to guide migration

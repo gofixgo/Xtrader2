@@ -1,0 +1,18 @@
+New version file name should be formated as such:
+
+x.x.x_title_of_version.txt
+
+Where x.x.x is the version number <major>.<minor>.<patch>
+and the title of the version should be added after the version number
+with underscores seperating each word
+
+Within the file each line will represent a change in the changelog
+Add a + before the line if it is a major change
+Add a - before the line if it is a minor change
+
+Example:
++ ui change for the farm page
++ liquidity section of swap page added
+- css edits to make it more mobile compatible
+- change some language on the swap page
+- added an extra category in the monitor page

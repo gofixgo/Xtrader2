@@ -1,0 +1,4 @@
++ Deprecated sUSELESS-xUSD Farm
++ Only unstaking allowed on swap page
+- Added tooltips to guide users to unstake
+- Removed farm from "Available Farms" section

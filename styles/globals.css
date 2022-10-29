@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@fontsource /roboto/300.css;
+@fontsource /roboto/400.css;
+@fontsource /roboto/500.css;
+@fontsource /roboto/700.css;
+
+.Mui-selected {
+  color: #21bbb1 !important;
+}
+
+.MuiTabs-indicator {
+  background-color: #21bbb1 !important;
+}
+
+.MuiCircularProgress-colorSecondary {
+  color: #21bbb1 !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: #21bbb1 !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background-color: #21bbb1 !important;
+}
+
+@keyframes connectedWalletAnim {
+  0% {
+    flex-flow: "row-reverse";
+  }
+  100% {
+    flex-flow: "row";
+  }
+}
+
+#walletbtn {
+  position: relative;
+  overflow: hidden;
+  width: 143px !important;
+  min-width: 143px !important;
+  max-width: 143px !important;
+}
+
+.shiny {
+  position: relative;
+}
+
+.MuiBadge-badge {
+  position: absolute !important;
+  right: -10px !important;
+}
+
+.shiny:after {
+  animation: shine 5s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  content: "";
+  position: absolute;
+  height: 100px;
+  left: -100px;
+  width: 33px;
+  opacity: 0;
+  transform: rotate(30deg);
+
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@keyframes shine {
+  10% {
+    opacity: 1;
+    left: 250px;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    left: 250px;
+    transition-property: left, top, opacity;
+  }
+}
+
+.border-color-brand {
+  border: solid 2px #21bbb1;
+}
+
+.border-color-normal {
+  border: solid 1px #e5e7eb;
+}
